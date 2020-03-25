@@ -1,10 +1,10 @@
-# 觀光旅遊業factor analysis
+# traveling factor analysis
 
 library(haven)
 library(stats)
 
 # load data
-dat<-read_sav(“travel_survey.sav”)
+dat<-read_sav("travel_survey.sav")
 
 # view data, run basic EDA
 str(dat)
